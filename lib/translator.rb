@@ -6,8 +6,8 @@ def load_library(yaml_file)
     final = library.each_with_object ({}) do |(key, value), final_hash)|
       if !final_hash[key]
         final_hash[key] = {
-          :japanese => value[1],
-          :english => value[0]
+          :english => value[0],
+          :japanese => value[1]
         }
     end
     final
