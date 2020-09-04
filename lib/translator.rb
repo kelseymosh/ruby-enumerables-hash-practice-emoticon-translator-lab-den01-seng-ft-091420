@@ -1,8 +1,9 @@
 require 'yaml'
 require 'pry'
 
-def load_library()
-
+def load_library(yaml_file)
+  library = yaml.load_file('./lib/emoticons.yml')
+    
 end
 
 def get_english_meaning()
