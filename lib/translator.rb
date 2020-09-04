@@ -10,8 +10,8 @@ def load_library(yaml_file)
           :japanese => value[1]
         }
     end
-    final
   end
+  final
 end
 
 def get_english_meaning()
